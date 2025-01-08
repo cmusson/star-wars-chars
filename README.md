@@ -1,43 +1,51 @@
-## STAR WARS CHARACTERS
+# STAR WARS CHARACTERS 🚀  
 
-# React + TypeScript + Vite + TailwindCSS
+## React + TypeScript + Vite + TailwindCSS  
 
-## To run this application make sure node is installed on you device
+### 📌 Prerequisites
+Ensure you have **Node.js** installed on your device before running the application.  
 
-# Run # yarn in the root folder in the terminal to install all dependencies
+---
 
-# Run # yarn dev once all dependencies have been installed to run the app locally at http://localhost:5173/
+## 💻 Installation & Running the App
+```sh
+# Install dependencies
+yarn
 
-## Relevant notes about this project
+# Start the development server
+yarn dev
+```
+Once the server is running, the app will be available locally at:  
+🤞 **http://localhost:5173/**  
 
-# The original api has changed since the initial project was created which lead to a different end result
+---
 
-# The app is fully responsive for mobile usage and fetches 10 characters from the api in order of pagination
+## 📝 Project Notes
+- The **original API has changed** since the initial project, leading to a slightly different end result.
+- The app is **fully responsive** and optimized for **mobile usage**.
+- It **fetches 10 characters per page** using API pagination.
+- For **search and filtering**, all characters are **fetched separately** and stored in memory.
+- The **search & filter options** become available **only after all characters have been loaded**.
+- The **updated API has a simplified user object**, limiting filtering options (listed as *"Coming soon..."*).
 
-# For filtering and serching purposes, all characters are fetched once separately to this and stored
+---
 
-# Only once all characters are loaded does the option to search and filter become available to the user
+## 🛠️ Tech Stack & Considerations
+### 📌 Framework & Tools Used
+- **React** – Chosen based on project requirements.
+- **Vite** – Used alongside React for improved performance & better developer experience.
+- **TypeScript** – Used instead of JavaScript for **better error handling** and **type safety**.
+- **Tailwind CSS** – Selected for its **modular, utility-first approach** to styling.
+- **Headless UI** – Used for **smooth transitions & animations**.
 
-# As the updated api user object is incredibly simple, there isn't much to filter, so for now that is listed as 'Coming soon...'
+### 📌 Global State Management
+- **Redux Toolkit** – Used for **efficient global state management**.
+  - Handles **large amounts of data** across multiple components.
+  - Works well with **thunks** for API fetching, storing data, and managing **loading & error states**.
+  - **Redux Logger** improves **developer experience** & debugging.
 
-## Technical considerations
+---
 
-# As detailed in the challed I chose to use React as the library/framework
+## ❓ Questions or Comments?
+Feel free to reach out if you have any questions, suggestions, or improvements! 🚀  
 
-# I chose vite in conjuntion with react for increased perfomance and developer experience
-
-# TS was used in lieu of JS to help with error reduction and identification in code
-
-# Tailwind was used as an easy to use, powerful modular version of CSS
-
-# HeadlessUI was used for it's transition component for various animations
-
-# Redux toolkit was used for global state management as integrated nicely with React:
-
-# Global state is useful with lots of data and multiple compopnents
-
-# Redux also integrates nicely with thunks for fetching and storing global data and loading and error states
-
-# Redux logger is also very useful for the developer expereince and debugging
-
-Please let me know if you have any additional questions or comments
